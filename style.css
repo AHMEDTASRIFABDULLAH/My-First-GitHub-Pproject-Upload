@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+.Main {
+  width: 100%;
+  height: 100vh;
+  background-color: #d0d4d5;
+  position: relative;
+}
+.nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+.navp1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+.navp1 h4 {
+  margin-left: 50px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.nav img {
+  height: 100px;
+  margin-right: 150px;
+}
+.navp2 i {
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.hero {
+  width: 100%;
+  height: calc(100% - 100px);
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 35%;
+  height: 100%;
+  padding: 40px 70px;
+}
+.left h5 {
+  font-size: 10px;
+  color: #7f8688;
+  margin-top: 28px;
+}
+.left h1 {
+  font-size: 70px;
+  color: black;
+  margin-top: 15px;
+  width: 100%;
+  line-height: 67px;
+}
+.left p {
+  margin-top: 30px;
+  opacity: 0.6;
+}
+.left button {
+  background-color: black;
+  color: #fff;
+  font-weight: 600;
+  padding: 16px 50px;
+  margin-top: 37px;
+  border: none;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  font-size: 16;
+}
+.right {
+  width: 65%;
+  height: 100%;
+  position: relative;
+  padding: 60px;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.right::-webkit-scrollbar {
+  display: none;
+}
+.slider {
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  margin-right: 20px;
+}
+.slider img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  bottom: 12px;
+}
+.slider h4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #707681;
+  padding: 12px 20px;
+  border-radius: 6px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.slider h5 {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  background-color: black;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  font-weight: 500;
+  font-size: 12px;
+}
